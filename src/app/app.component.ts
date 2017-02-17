@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  
+  onClicked(value: string) {
+    console.log("value = ", value);
+  }
+  test(value: any) {
+    console.dir(value);
+  }
 }
